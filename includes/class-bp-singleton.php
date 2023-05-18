@@ -48,7 +48,7 @@ trait WP_BP_Singleton {
 	protected function init() {
 	}
 
-	final private function __wakeup() {
+	final public function __wakeup() {
 	}
 
 	final private function __clone() {
